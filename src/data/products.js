@@ -1,10 +1,19 @@
+import shoes from "../assets/shoes.jpg";
+import headphones from "../assets/headphones.jpg";
+import backpack from "../assets/backpack.jpg";
+import smartwatch from "../assets/smartwatch.jpg";
+import sunglasses from "../assets/sunglasses.jpg";
+import camera from "../assets/camera.jpg";
+import tshirt from "../assets/tshirt.jpg";
+import phone from "../assets/phone.jpg";
+
 const products = [
     {
         id: 1,
         title: "Running Shoes",
         price: 99,
         category: "Clothing",
-        image: "/assets/shoes.jpg",
+        image: shoes,
         description: "Comfortable running shoes for daily workouts.",
     },
     {
@@ -12,7 +21,7 @@ const products = [
         title: "Wireless Headphones",
         price: 199,
         category: "Electronics",
-        image: "/assets/headphones.jpg",
+        image: headphones,
         description: "Noise-cancelling over-ear headphones.",
     },
     {
@@ -20,7 +29,7 @@ const products = [
         title: "Backpack",
         price: 129,
         category: "Clothing",
-        image: "/assets/backpack.jpg",
+        image: backpack,
         description: "Durable and spacious for travel.",
     },
     {
@@ -28,7 +37,7 @@ const products = [
         title: "Smartwatch",
         price: 249,
         category: "Electronics",
-        image: "/assets/smartwatch.jpg",
+        image: smartwatch,
         description: "Track your fitness and stay connected.",
     },
     {
@@ -36,7 +45,7 @@ const products = [
         title: "Sunglasses",
         price: 149,
         category: "Clothing",
-        image: "/assets/sunglasses.jpg",
+        image: sunglasses,
         description: "Stylish UV-protected sunglasses.",
     },
     {
@@ -44,7 +53,7 @@ const products = [
         title: "Digital Camera",
         price: 499,
         category: "Electronics",
-        image: "/assets/camera.jpg",
+        image: camera,
         description: "Capture your moments in high quality.",
     },
     {
@@ -52,7 +61,7 @@ const products = [
         title: "T-shirt",
         price: 29,
         category: "Clothing",
-        image: "/assets/tshirt.jpg",
+        image: tshirt,
         description: "Cotton t-shirt for casual wear.",
     },
     {
@@ -60,7 +69,7 @@ const products = [
         title: "Smartphone",
         price: 699,
         category: "Electronics",
-        image: "/assets/phone.jpg",
+        image: phone,
         description: "Latest smartphone with high-end features.",
         rating: 5,
     },
